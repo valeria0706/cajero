@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container__form sign-up" id="container__form">
+        <div class="welcome-back">
+            <div class="message">
+                <h2>Bienvenido al cajero</h2>
+                <p class="cuenta">Si ya tienes una cuenta porf avor inicia sesion aqui</p>
+                <button class="sign-up-btn">Iniciar Sesion</button>
+
+            </div>
+        </div>
+        <form action="" class="formulario" id="formulario">
+            <h2 class="create-account">Crear una cuenta</h2>
+            
+            <p class="espacio"></p>
+
+            <section class="formulario__grupo" id="grupo__nombre">
+                <div class="formulario__grupo__input">
+                    <input type="text" placeholder="Nombre" class="formulario__input" name="nombre" id="nombre">
+                    <i class='formulario__validacion-estado bx bx-x-circle'></i>
+                </div>
+                <p class="formulario__input-error">El nombre solo puede tener letras</p>
+            </section>
+
+            <section class="formulario__grupo" id="grupo__correo">
+                <div class="formulario__grupo__input">
+                    <input type="email" placeholder="Correo" class="formulario__input" name="correo" id="correo"> 
+                    <i class='formulario__validacion-estado  bx bx-x-circle'></i>
+                </div>
+                <p class="formulario__input-error">el correo debe tener un @ y .com </p>
+            </section>
+
+            <section class="formulario__grupo" id="grupo__contraseña">
+                <div class="formulario__grupo__input">
+                    <input type="password" placeholder="Contraseña" class="formulario__input" name="contraseña" id="contraseña" >
+                    <i class='formulario__validacion-estado  bx bx-x-circle'></i>
+                </div>
+                <p class="formulario__input-error">la contraseña debe tener al menos 8 caracteres, una Mayuscula, una minuscula y un numero </p>
+            </section>
+
+            <section class="formulario__grupo" id="grupo__repcontraseña">
+                <div class="formulario__grupo__input">
+                    <input type="password" placeholder="Repetir contraseña" name="repcontraseña" id="repcontraseña">
+                    <i class='formulario__validacion-estado  bx bx-x-circle'></i>
+                </div>
+                <p class="formulario__input-error">las contraseñas deben coincidir</p>
+            </section>
+
+            <div class="formulario__mensaje" id="formulario__mensaje">
+                <p><i class='bx bxs-error'></i><b>Error:</b>Por favor rellene el formulario correctamente</p>
+
+            </div>
+            <div class="formulario__grupo formulario__grupo-btn-enviar">
+                <button type="submit" class="formulario__btn" name="registrarme" id="formulario__btn">Registrarme</button>
+                <p class="formulario__mensaje-exito" id="formulario__mensaje-exito">Su registro ha sido exitoso por favor inicie sesion</p>
+            </div>
+            
+        </form>
+    </div>
+
+
+
+
+
+    
+
+    <div class="container__form sign-in" id="container__form">
+        
+<form action="" class="formulario2" id="formulario2">
+    <h2 class="create-account">Iniciar Sesion</h2>
+    <p class="espacio">¿Aun no tienes cuenta?</p>
+
+
+    <section class="formulario2__grupo2" id="grupo2__usuario">
+        <div class="formulario2__grupo2__input">
+            <input type="text" placeholder="usuario" class="formulario2__input" name="usuario" id="usuario">
+            <i class='formulario2__validacion-estado bx bx-x-circle'></i>
+        </div>
+        <p class="formulario2__input-error">El nombre solo puede tener letras y numeros</p>
+    </section>
+
+    <section class="formulario2__grupo2" id="grupo2__contraseña2">
+        <div class="formulario2__grupo2__input">
+            <input type="password" placeholder="Contraseña" class="formulario2__input" name="contraseña2" id="contraseña2" >
+            <i class='formulario2__validacion-estado  bx bx-x-circle'></i>
+        </div>
+        <p class="formulario2__input-error">la contraseña debe tener al menos 8 caracteres, una Mayuscula, una minuscula y un numero </p>
+    </section>
+
+
+    <div class="formulario2__mensaje" id="formulario2__mensaje">
+        <p><i class='bx bxs-error'></i><b>Error:</b>Por favor rellene el formulario correctamente</p>
+
+    </div>
+
+        
+
+    <div class="formulario2__grupo2 formulario2__grupo2-btn-enviar">
+        <button type="submit" class="formulario2__btn ">Iniciar Sesion</button>
+        </div>
+    
+</form>
+
+
+        <div class="welcome-back">
+            <div class="message">
+                <h2>Bienvenido de nuevo</h2>
+                <p class="cuenta">Si aun no tienes una cuenta por favor registrese aqui</p>
+                <button type="submit" class="sign-in-btn ">Registrarse</button>
+                <p class="formulario2__mensaje-exito" id="formulario2__mensaje-exito">Sesion Iniciada</p>
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+<section class="btns" id="btns">
+ <div class="botones-izquierda">
+    <button class="btn" id="boton1">Botón 1</button>
+    <button class="btn" id="boton2">Botón 2</button>
+</div>
+
+<div class="botones-derecha">
+    <button class="btn" id="boton3">Botón 3</button>
+    <button class="btn" id="boton4">Botón 4</button>
+</div>
+</section>
+
+
+
+
+    <script src="./assets/js/script.js"></script>
+    
+</body>
+
+</html>
